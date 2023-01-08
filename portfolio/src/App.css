@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(157, 157, 157);
+}
+
+/* navigation styling */
+.navBar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(221, 131, 40, 1);
+  list-style: none;
+}
+
+.navItem {
+  float: right;
+  border-left: 5px solid rgb(157, 157, 157);
+}
+
+.navItem a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navItem a:hover {
+  background-color: black;
+}
+
+.active {
+  background-color: black;
+}
+
+/* header styling  */
+.header {
+  padding-top: 3%;
+  text-align: center;
+}
+
+.headerTitle {
+  color: black;
+  font-size: large;
+}
+
+/* about page styling */
+.aboutSection {
+  padding: 2%;
+}
+
+.bioTitle {
+text-align: center;
+font-size: larger;
+}
+
+.profilePic {
+  height: 50%;
+  width: 50%;
+  float: left;
+}
+
+.bioContent {
+  text-align: left;
+  font-size: xx-large;
+}
+
+/* footer styling */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(157, 157, 157, .3);
+  font-size: larger;
+}
+
+.footerItem {
+  float: right;
+}
+
+.footerItem a {
+  display: block;
+  color: white;
+  padding:16px;
+  text-decoration: none;
+}
+
+/* portfolio section styling */
+.portfolioSection {
+  padding: 20px;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.portfolioItem {
+  padding: 5%;
+}
+
+/* contact styling */
+.contactForm {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  height:75%;
+  width: 50%;
+  padding: 3%;
+  margin: auto;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+.contactForm button {
+  background-color: rgb(157, 157, 157);;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contactForm button:hover {
+  background-color: rgb(221, 131, 40);
+}
+
+/* resume styling */
+.resumeSection {
+  text-align: center;
+  font-size: xx-large;
+  margin: auto;
+  width: 50%;
+}
