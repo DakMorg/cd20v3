@@ -23,9 +23,9 @@ my resume.
 
 ## Links
 
-GitHub Repo: https://github.com/DakMorg/c20v3
+GitHub Repo: https://github.com/DakMorg/cd20v3
 
-Deployed GitHub Page: https://dakmorg.github.io/c20v3/
+Deployed GitHub Page: https://dakmorg.github.io/cd20v3/
 
 ## Questions
 
